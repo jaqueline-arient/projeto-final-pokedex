@@ -1,0 +1,45 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+    background-color: #10100f;
+    
+    
+}
+
+h1{
+    color: #77c850;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 10px 10px 25px  #76d749; 
+}
+
+p {
+    color: #f09a53;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 10px 10px 25px  #e97100; 
+}
+
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #000000;
+    
+    
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
